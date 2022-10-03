@@ -1,0 +1,388 @@
+﻿<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5_Top_Nav_SmartSpace_Blue" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../" data-mc-has-content-body="True" data-mc-toc-path="" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false">
+    <head>
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="Cache-Control" content="no-store" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta charset="utf-8" /><title>Defining Views</title>
+        <link href="../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Default/Stylesheets/Components/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="../Skins/Fluid/Stylesheets/Print.css" rel="stylesheet" type="text/css" data-mc-generated="True" />
+        <link href="Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+        <style>/*&lt;meta /&gt;*/
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <style>/*&lt;meta /&gt;*/
+
+.button.previous-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+.button.next-topic-button
+{
+	-pie-background: linear-gradient(#ffffff, #ececec);
+}
+
+.needs-pie
+{
+	behavior: url('../Resources/Scripts/PIE-no-motw.htc');
+}
+
+</style>
+        <link href="Resources/TableStyles/SmartSpaceTable.css" rel="stylesheet" data-mc-stylesheet-type="table" />
+        <script src="../Resources/Scripts/jquery.min.js" type="text/javascript">
+        </script>
+        <script src="../Resources/Scripts/purify.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/require.config.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/foundation.6.2.3_custom.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/plugins.min.js" type="text/javascript" defer="defer">
+        </script>
+        <script src="../Resources/Scripts/MadCapAll.js" type="text/javascript" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" role="banner" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="small" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-account-wrapper">
+                                        <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                            <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                                <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="Home.htm" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" role="navigation" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="central-account-wrapper">
+                                    <div class="central-dropdown"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <div>
+                                        <div id="contentBody">
+                                            <div>
+                                                <div class="sideContent">
+                                                    <div>
+                                                        <div class="buttons popup-container clearfix topicToolbarProxy mc-component nocontent">
+                                                            <div class="button-group-container-left">
+                                                                <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                                    <div>
+                                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                                            <div class="button-icon"> </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </button>
+                                                                <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                                    <div>
+                                                                        <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                                            <div class="button-icon"> </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="nocontent">
+                                                    <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                                    </div>
+                                                </div>
+                                                <div class="ContentRow" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                                                    <div>
+                                                        <div role="main" id="mc-main-content" xmlns="">
+                                                            <h1 class="Heading1" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd" id="DefiningViews" data-magellan-target="DefiningViews">Defining Views</h1>
+                                                            <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">In the current <i>This is a snippet</i>release, views are defined by loading a JSON file into the SmartSpace configuration, using the tool ubisense_object_view_config, which can be downloaded from the Application Manager, under Downloadables -&gt; Visibility/Object view admin tools.&#160; The tool operates in two modes: import and export.</p>
+                                                            <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;</p>
+                                                            <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">in </p>
+                                                            <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">in </p>
+                                                            <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">in </p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Usage: ubisense_object_view_config.exe export [OPTIONS]</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;&#160; or: ubisense_object_view_config.exe import [OPTIONS]</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;&#160; or: ubisense_object_view_config.exe remove &lt;view&gt;</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Export and import view definitions.</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">PARAMETERS</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160; view&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; view</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">OPTIONS</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160; -i, --input &lt;input&gt;&#160;&#160;&#160;&#160;&#160;&#160; The input JSON file</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160; -o, --output &lt;output&gt;&#160;&#160;&#160;&#160; The output JSON file</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160; -v, --view &lt;view&gt;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; The view name to export, otherwise export all</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; views</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160; --help&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Display this help and exit</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;</p>
+                                                            <p class="Code" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160; --version&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; Display version information and exit</p>
+                                                            <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">The import method takes the -i option, and export takes the -o option.&#160; If neither are specified, standard in and standard out are used.</p>
+                                                            <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">The file must be a valid JSON file, containing either a single view definition object, or multiple view definitions in an array.&#160; Each view definition object has the following properties:</p>
+                                                            <table class="TableStyle-SmartSpaceTable" style="mc-table-style: url('Resources/TableStyles/SmartSpaceTable.css');" cellspacing="0" xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+                                                                <col class="TableStyle-SmartSpaceTable-Column-Column1" />
+                                                                <col class="TableStyle-SmartSpaceTable-Column-Column1" />
+                                                                <col class="TableStyle-SmartSpaceTable-Column-Column1" />
+                                                                <thead>
+                                                                    <tr class="TableStyle-SmartSpaceTable-Head-Header1">
+                                                                        <th class="TableStyle-SmartSpaceTable-HeadE-Column1-Header1">
+                                                                            <p class="p_1">Property</p>
+                                                                        </th>
+                                                                        <th class="TableStyle-SmartSpaceTable-HeadE-Column1-Header1">
+                                                                            <p class="p_1">Meaning</p>
+                                                                        </th>
+                                                                        <th class="TableStyle-SmartSpaceTable-HeadD-Column1-Header1">
+                                                                            <p class="p_1">Example</p>
+                                                                        </th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr class="TableStyle-SmartSpaceTable-Body-Body1">
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">view</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">The name of the view.&#160; Must be unique across views – two views cannot share the same name even if they have different roles.</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyD-Column1-Body1">
+                                                                            <p class="Code_1">"view": "Workspaces"</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="TableStyle-SmartSpaceTable-Body-Body1">
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">key</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">The type of the objects that this view will contain.&#160; The name of the type, as displayed in SmartSpace Config "Types/Objects", a raw type name with namespace qualifications, or an external typename such as "ULocationIntegration::Tag".</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyD-Column1-Body1">
+                                                                            <p class="Code_1">"key": "Workspace"</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="TableStyle-SmartSpaceTable-Body-Body1">
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">roles</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">An array of role strings, defining which roles can access this view.</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyD-Column1-Body1">
+                                                                            <p class="Code_1">"roles": [ "General User", "Operator" ]</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="TableStyle-SmartSpaceTable-Body-Body1">
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">properties</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">An object which defines the properties of the key type that will be included in the view.&#160; Each key in the object is the name that will appear in the view, and each value defines the source property, and optionally column mapping.&#160; See the property definition discussion below.</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyD-Column1-Body1">
+                                                                            <p class="Code_1">"properties": {</p>
+                                                                            <p class="Code_1">&#160; "name": "name",</p>
+                                                                            <p class="Code_1">&#160; "order": "order",</p>
+                                                                            <p class="Code_1">&#160; "products":</p>
+                                                                            <p class="Code_1"> {</p>
+                                                                            <p class="Code_1">&#160; "source": "'Product' is in 'Workspace'",</p>
+                                                                            <p class="Code_1">&#160; "key": 1,</p>
+                                                                            <p class="Code_1">&#160; "value": 0</p>
+                                                                            <p class="Code_1"> }</p>
+                                                                            <p class="Code_1">}</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="TableStyle-SmartSpaceTable-Body-Body1">
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">reps</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">Special field for including object representations.  If present, then the value is the name for the representations property that will appear in the view.&#160; See the representations discussion below.</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyD-Column1-Body1">
+                                                                            <p class="Code_1">"reps": "reps"</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="TableStyle-SmartSpaceTable-Body-Body1">
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">tags</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">Special field for including associated tags.&#160; If present, then the value is the name for the tag property that will appear in the view.&#160; See the tags discussion below.</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyD-Column1-Body1">
+                                                                            <p class="Code_1">"tags": "tags"</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="TableStyle-SmartSpaceTable-Body-Body1">
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">name</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyE-Column1-Body1">
+                                                                            <p class="p_2">Special field for including the external object name.&#160; If present, then the value is the name property that will appear in the view.&#160; See the name discussion below.&#160; This is useful for object types which do not have a name property defined in Types/Objects.</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyD-Column1-Body1">
+                                                                            <p class="Code_1">"name": "name"</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="TableStyle-SmartSpaceTable-Body-Body1">
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyB-Column1-Body1">
+                                                                            <p class="p_2">locations</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyB-Column1-Body1">
+                                                                            <p class="p_2">Special field to make this a location view.&#160; This cannot appear with "properties", "reps", "tags" or "name". The value is an object with one key "period", which defines the number of seconds between locations being pushed to clients of this view.&#160; This is only used to define a cellular location view.&#160; See the discussion on location views below.</p>
+                                                                        </td>
+                                                                        <td class="TableStyle-SmartSpaceTable-BodyA-Column1-Body1">
+                                                                            <p class="Code_1">"locations": {</p>
+                                                                            <p class="Code_1">&#160; "period": 1</p>
+                                                                            <p class="Code_1">}</p>
+                                                                            <p class="p_2">&#160;</p>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                            <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">&#160;</p>
+                                                            <p xmlns="http://www.madcapsoftware.com/Schemas/MadCap.xsd">Here is an example of a valid view definition JSON file, defining three views in a single file, one of which is a data view, and the other two location views.</p>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <ul data-magellan="" data-animation-duration="250" data-active-class="selected" data-scroll-container-on="small" class="nocontent menu mc-component" xmlns="">
+                                                            <li><a href="#DefiningViews">Defining Views</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>&#160;</p>
+                                    <p>&#160;</p>
+                                    <div class="buttons popup-container clearfix topicToolbarProxy mc-component nocontent" style="mc-topic-toolbar-items: ;">
+                                        <div class="button-group-container-left">
+                                            <button class="button needs-pie previous-topic-button" title="Navigate previous" disabled="true">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate previous">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                            <button class="button needs-pie next-topic-button" title="Navigate next" disabled="true">
+                                                <div>
+                                                    <div role="img" class="button-icon-wrapper" aria-label="Navigate next">
+                                                        <div class="button-icon"> </div>
+                                                    </div>
+                                                </div>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <hr width="100%" size="0" align="center" />
+                                    <div class="footer center">
+                                        <p style="text-align: right;font-family: 'Segoe UI';font-size: 10pt;"><a href="https://docs.ubisense.com/portal/Default.htm" style="font-weight: bold;">Ubisense Documentation Portal</a>
+                                        </p>
+                                    </div>
+                                    <div style="text-align: center;"><a href="https://www.ubisense.com/" target="_blank" style="text-decoration: underline;color: #00286a;">www.ubisense.com</a>
+                                        <br />Copyright © <span class="mc-variable UbisenseVariables.CopyrightYear variable">(Undefined variable: UbisenseVariables.CopyrightYear)</span>, Ubisense Limited 2014 - <span class="mc-variable UbisenseVariables.CopyrightYear variable">(Undefined variable: UbisenseVariables.CopyrightYear)</span>. All&#160;Rights Reserved.</div>
+                                    <MadCap:conditionalText data-mc-conditions="CentralTeams.Exclude-GA">
+                                        <!-- Global site tag (gtag.js) - Google Analytics -->
+                                        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-83734478-2">
+                                        </script>
+                                        <script>/* <![CDATA[ */window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-83734478-2');/* ]]> */</script>
+                                    </MadCap:conditionalText>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

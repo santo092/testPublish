@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms xml:lang="en-us">
+    <Groups />
+    <Directional>
+        <DirectionalSynonym From="test" To="test" />
+    </Directional>
+</MadCapSynonyms>
